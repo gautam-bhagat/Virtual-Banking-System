@@ -90,11 +90,11 @@ public class FastCash extends JFrame implements ActionListener {
         else{
             String fastcash="0";
             if(ae.getSource()==btn[0]) fastcash="100";
-            if(ae.getSource()==btn[1]) fastcash="200";
-            if(ae.getSource()==btn[2]) fastcash="500";
-            if(ae.getSource()==btn[3]) fastcash="1000";
-            if(ae.getSource()==btn[4]) fastcash="2000";
-            if(ae.getSource()==btn[5]) fastcash="5000";
+            else if(ae.getSource()==btn[1]) fastcash="200";
+            else if(ae.getSource()==btn[2]) fastcash="500";
+            else if(ae.getSource()==btn[3]) fastcash="1000";
+            else if(ae.getSource()==btn[4]) fastcash="2000";
+            else if(ae.getSource()==btn[5]) fastcash="5000";
             try{
                 Integer amount = Integer.parseInt(fastcash);
                 Integer bal=0;

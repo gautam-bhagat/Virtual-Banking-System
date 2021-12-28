@@ -79,6 +79,6 @@ public class Congo extends JFrame {
 
     }
     public static void main(String[] args) {
-        Congo c=new Congo("1111","11111111111","1111");
+        new Congo("","","");
     }
 }
